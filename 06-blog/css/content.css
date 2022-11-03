@@ -1,0 +1,25 @@
+article {
+    max-width: 300px;
+}
+
+article h3  {
+    color: red;
+}
+
+
+article a {
+    color: red;
+}
+
+article::after {
+    content: '\258'; 
+    color: red
+}
+
+@media screen and (min-width: 768px) {
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 15;
+}    
+}
