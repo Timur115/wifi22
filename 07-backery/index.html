@@ -5,41 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakery- Welcome</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <h1>
-        Willkommen in der Bakery</h1>
-
-        <link rel="stylesheet" href="style.css">
-
-        <p>Willkomen auf unsere Webseite</p>
-
+<body>   
 
         <div class="wrapper">
-            <header>
-                <!--hier beginnt das Logo-->
+            <header id="main-header">
+                
+                <!--LOGO: begin-->
                 <div id="logo">
                     <a href="index.html">
                     <img src="img/Logo-placeholder.png" alt="">
                     </a>
 
                 </div>
-                <!--hier endet das Logo-->
-                <!--hier beginnt die Navigation-->
+               <!--NAV: beginn-->
+                
+               
+               <!--hier beginnt die Navigation-->
         <nav>
+
+            <nav id="main-menu">
+            <a href="#">
+                <img src="img/nav-icon.svg" alt="Navigation icon">
+            </a>
+            </nav>
             <ul>
-                <li><a href="about.html"></a>/li>
-                <li><a href="team.html"></a>/li>
-                <li><a href="gallery.html"></a>/li>
-                <li><a href="contact.html"></a>/li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="team.html">Unser Team</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
         <!--Nav: end-->
+
+
             </header>
             <main>
-
+                <div id="hero">
+                    <!--TODO: Slider einbauen-->
+                    <img src="img/pexels-klaus-nielsen-6287298_large.jpg" width="100%">
+                </div>
+                <div id="quality"></div>
+                <h1>Unser Sortiment</h1>
+                <section id="products">
+                    <img src="http://placekitten.com/200/300" alt="">
+                    <img src="http://placekitten.com/200/300" alt="">
+                    <img src="http://placekitten.com/200/300" alt="">
+                    <img src="http://placekitten.com/200/300" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorum ipsum qui eos, in illo dicta ipsam, ab incidunt hic quaerat. Quo inventore accusantium repellendus optio aut ratione aspernatur obcaecati!</p>
+                    <a href="kontakt" class="button">Bestellung aufgeben</a>
+                </section>
             </main>
-            <footer></footer>
+            <footer>
+                <nav id="footer-nav">
+                <ul>
+                    <li><a href="#">Datenschutz</a></li>
+                    <li><a href="#">Unser Team</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Impressum</a></li>
+                    <li><a href="#">Datenschutz &amp; Cookies</a></li>
+                </ul>
+            </nav>
+            <div id="end">
+                <p>&copy; 2022 Bakery | copiright by JWE 22</p>
+
+            </div>
+            </footer>
         </div>
 </body>
 </html>
